@@ -77,29 +77,29 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 ---
 
+Usage / Kullanım
 Run the project:
 Projeyi çalıştırın:
 
 Bash
 
 python main.py --target "https://example.com" --scan-type full --output-format json
-Steps:
-
+Steps / Adımlar:
 Prepare input data / Giriş verilerini hazırlayın:
 
-Projemiz doğrudan web hedefleri üzerinde çalıştığından, özel bir "giriş dosyası" hazırlamanıza gerek yoktur. Bunun yerine, tarama yapmak istediğiniz hedef web uygulamasının URL'sini sağlamanız yeterlidir.
-Tarama kapsamınızı ve derinliğinizi belirlemek için --scan-type (tarama tipi) ve --scope (kapsam) gibi komut satırı argümanlarını kullanabilirsiniz. Örneğin, --scope "login_page,api_endpoints" gibi belirli alanları hedefleyebilirsiniz.
+Our project works directly on web targets, so you don't need to prepare a special "input file." Instead, you just need to provide the URL of the target web application you want to scan.
+You can use command-line arguments like --scan-type (scan type) and --scope (scope) to define your scan coverage and depth. For example, you can target specific areas like --scope "login_page,api_endpoints".
 Run the script with arguments / Betiği argümanlarla çalıştırın:
 
---target <URL>: Tarama yapılacak web uygulamasının URL'sini belirtir. Örnek: https://www.ornekuygulama.com. Bu, zorunlu bir argümandır.
---scan-type <type>: Gerçekleştirilecek tarama tipini belirler. Seçenekler: quick (hızlı tarama), full (kapsamlı tarama), api (yalnızca API zafiyet taraması). Varsayılan: quick.
---output-format <format>: Tarama sonuçlarının çıktı formatını belirler. Seçenekler: json, html, txt. Varsayılan: txt.
---report-path <path>: Sonuç raporunun kaydedileceği dizini belirtir. Varsayılan: ./reports/.
---verbose: Daha detaylı konsol çıktısı sağlar. Hata ayıklama (debugging) için faydalıdır.
+--target <URL>: Specifies the URL of the web application to be scanned. Example: https://www.exampleapplication.com. This is a mandatory argument.
+--scan-type <type>: Determines the type of scan to perform. Options: quick (quick scan), full (comprehensive scan), api (API vulnerability scan only). Default: quick.
+--output-format <format>: Determines the output format for the scan results. Options: json, html, txt. Default: txt.
+--report-path <path>: Specifies the directory where the results report will be saved. Default: ./reports/.
+--verbose: Provides more detailed console output. Useful for debugging.
 Check output / Çıktıyı kontrol edin:
 
-Tarama tamamlandığında, sonuçlar --output-format argümanında belirttiğiniz formatta, --report-path ile belirtilen dizinde kaydedilecektir. Örneğin, reports/scan_results_2025-06-04.json gibi bir dosya bulabilirsiniz.
-Rapor dosyası, bulunan zafiyetler, risk seviyeleri, önerilen düzeltmeler ve tarama özetini içerecektir.
+Once the scan is complete, the results will be saved in the format you specified with the --output-format argument, within the directory specified by --report-path. For example, you might find a file like reports/scan_results_2025-06-04.json.
+The report file will contain found vulnerabilities, risk levels, recommended fixes, and a scan summary.
 
 ---
 
