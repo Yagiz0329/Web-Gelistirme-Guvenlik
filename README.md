@@ -50,12 +50,12 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 | Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
 |-------------------------|-----------------------------------------|------------------------------------------------|
-| Web Zafiyet Analiz Metodolojileri     | [researchs/aircrack.md](researchs/aircrack.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi.*|
-| DevSecOps Entegrasyon Yaklaşımları  | [researchs/your-research-file.md](researchs/your-research-file.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi*. |
-| API Güvenliği En İyi Pratikleri      | [researchs/api_security_best_practices.md](researchs/api_security_best_practices.md	)	 *Modern API'lar için kimlik doğrulama, yetkilendirme ve veri koruma stratejileri.*|
+| Web Zafiyet Analiz Metodolojileri     | [researchs/aircrack.md](researchs/web_vulnerability_analysis.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi.*|
+| DevSecOps Entegrasyon Yaklaşımları  | [researchs/your-research-file.md](researchs/devsecops_integration.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi*. |
+| API Güvenliği En İyi Pratikleri      | [researchs/api_security_best_practices.md](researchs/api_security_best_practices.md)	| *Modern API'lar için kimlik doğrulama, yetkilendirme ve veri koruma stratejileri.*
 
 ---
-
+ ||
 ## Installation / *Kurulum*
 
 1. **Clone the Repository / *Depoyu Klonlayın***:  
