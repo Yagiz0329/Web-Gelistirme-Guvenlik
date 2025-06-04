@@ -77,24 +77,29 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 ---
 
-## Usage / *Kullanım*
+Run the project:
+Projeyi çalıştırın:
 
-Run the project:  
-*Projeyi çalıştırın:*
+Bash
 
-```bash
-python main.py --input your_file.pcap --output results.txt
-```
+python main.py --target "https://example.com" --scan-type full --output-format json
+Steps:
 
-**Steps**:  
-1. Prepare input data (*explain data needed*).  
-2. Run the script with arguments (*explain key arguments*).  
-3. Check output (*explain where to find results*).  
+Prepare input data / Giriş verilerini hazırlayın:
 
-*Adımlar*:  
-1. Giriş verilerini hazırlayın (*ne tür verilere ihtiyaç duyulduğunu açıklayın*).  
-2. Betiği argümanlarla çalıştırın (*önemli argümanları açıklayın*).  
-3. Çıktıyı kontrol edin (*sonuçları nerede bulacağınızı açıklayın*).
+Projemiz doğrudan web hedefleri üzerinde çalıştığından, özel bir "giriş dosyası" hazırlamanıza gerek yoktur. Bunun yerine, tarama yapmak istediğiniz hedef web uygulamasının URL'sini sağlamanız yeterlidir.
+Tarama kapsamınızı ve derinliğinizi belirlemek için --scan-type (tarama tipi) ve --scope (kapsam) gibi komut satırı argümanlarını kullanabilirsiniz. Örneğin, --scope "login_page,api_endpoints" gibi belirli alanları hedefleyebilirsiniz.
+Run the script with arguments / Betiği argümanlarla çalıştırın:
+
+--target <URL>: Tarama yapılacak web uygulamasının URL'sini belirtir. Örnek: https://www.ornekuygulama.com. Bu, zorunlu bir argümandır.
+--scan-type <type>: Gerçekleştirilecek tarama tipini belirler. Seçenekler: quick (hızlı tarama), full (kapsamlı tarama), api (yalnızca API zafiyet taraması). Varsayılan: quick.
+--output-format <format>: Tarama sonuçlarının çıktı formatını belirler. Seçenekler: json, html, txt. Varsayılan: txt.
+--report-path <path>: Sonuç raporunun kaydedileceği dizini belirtir. Varsayılan: ./reports/.
+--verbose: Daha detaylı konsol çıktısı sağlar. Hata ayıklama (debugging) için faydalıdır.
+Check output / Çıktıyı kontrol edin:
+
+Tarama tamamlandığında, sonuçlar --output-format argümanında belirttiğiniz formatta, --report-path ile belirtilen dizinde kaydedilecektir. Örneğin, reports/scan_results_2025-06-04.json gibi bir dosya bulabilirsiniz.
+Rapor dosyası, bulunan zafiyetler, risk seviyeleri, önerilen düzeltmeler ve tarama özetini içerecektir.
 
 ---
 
