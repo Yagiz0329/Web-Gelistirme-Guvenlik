@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://img.shields.io/github/languages/count/keyvanarasteh/Project?style=flat-square&color=blueviolet" alt="Language Count">
+  <img src="https://img.shields.io/github/languages/count/Yagiz0329/Web Uygulama Güvenlik Duvarları (WAF) ve Bot Yönetimi Gelişmeleri*?style=flat-square&color=blueviolet" alt="Language Count">
   <img src="https://img.shields.io/github/languages/top/keyvanarasteh/Project?style=flat-square&color=1e90ff" alt="Top Language">
   <img src="https://img.shields.io/github/last-commit/keyvanarasteh/Project?style=flat-square&color=ff69b4" alt="Last Commit">
   <img src="https://img.shields.io/github/license/keyvanarasteh/Project?style=flat-square&color=yellow" alt="License">
@@ -8,29 +8,32 @@
 </div>
 
 # Project Name
-*Proje Adı*
+* Web Uygulama Güvenlik Duvarları (WAF) ve Bot Yönetimi Gelişmeleri*
 
 A brief, engaging description of your project.  
-*Projenizin kısa ve ilgi çekici bir açıklaması.*
+*Web uygulamalarınızın dijital kalkanını güçlendirmek için buradayız! "Web Güvenliği Geliştirme: Zafiyetlerden Korunan Uygulamalar" projemiz, kodlama aşamasından dağıtıma kadar tüm geliştirme süreçlerinde güvenlik açıklarını en aza indirmeyi hedefler. Amacımız, siber tehditlere karşı dirençli, kullanıcı verilerini güvende tutan ve sektör standartlarını aşan web uygulamaları geliştirmektir.*
 
 ---
 
 ## Features / *Özellikler*
 
-- **Feature 1:** Description of the feature.  
-  *Özellik 1: Özelliğin açıklaması.*
-- **Feature 2:** Another cool thing it does.  
-  *Özellik 2: Yaptığı başka bir harika şey.*
-- **Feature 3:** One more for good measure.  
+- **Güvenli Yazılım Geliştirme Yaşam Döngüsü (Secure SDLC) Entegrasyonu.  
+  *Özellik 1: Geliştirme (development), test (testing) ve dağıtım (deployment) dahil olmak üzere yazılım yaşam döngüsünün her aşamasına güvenlik kontrollerini ve en iyi uygulamaları baştan itibaren dahil ediyoruz. Bu, zafiyetlerin erken aşamada tespit edilmesini ve giderilmesini sağlar.*
+
+- **Feature 2:** Otomatik Güvenlik Testleri (SAST, DAST, SCA).  
+  *Özellik 2: Kodunuzdaki statik hataları (SAST), çalışan uygulamanızdaki dinamik zafiyetleri (DAST) ve üçüncü taraf kütüphanelerdeki bilinen güvenlik açıklarını (SCA) otomatik araçlarla düzenli olarak tarıyoruz.*
+
+- **Feature 3:** API Güvenliği Tasarımı ve Uygulaması.  
   *Özellik 3: Ve bir tane daha.*
+
 - Add more as they develop.  
-  *Geliştikçe daha fazla ekleyin.*
+  *Modern web uygulamalarının bel kemiği olan API'lar için özel güvenlik standartları ve uygulamaları geliştiriyoruz. Bu, kimlik doğrulama (authentication), yetkilendirme (authorization), veri doğrulama (data validation) ve rate limiting gibi temel kontrolleri içerir..*
 
 ---
 
 ## Team / *Ekip*
 
-- **219*****031** - Name Surname: *Role or Contribution*  
+- *2320191035* - Name Surname: Yağız Yedier *Everythink*  
   *Ad Soyad: Rolü veya Katkısı*
 - **Another Member** - Name Surname: *Role or Contribution*  
   *Ad Soyad: Rolü veya Katkısı*
