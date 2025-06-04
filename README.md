@@ -10,7 +10,8 @@
 # Project Name
 * Web Uygulama Güvenlik Duvarları (WAF) ve Bot Yönetimi Gelişmeleri*
 
-A brief, engaging description of your project.  
+İşte projeniz için kısa ve ilgi çekici bir Türkçe açıklama önerisi.  
+
 *Web uygulamalarınızın dijital kalkanını güçlendirmek için buradayız! "Web Güvenliği Geliştirme: Zafiyetlerden Korunan Uygulamalar" projemiz, kodlama aşamasından dağıtıma kadar tüm geliştirme süreçlerinde güvenlik açıklarını en aza indirmeyi hedefler. Amacımız, siber tehditlere karşı dirençli, kullanıcı verilerini güvende tutan ve sektör standartlarını aşan web uygulamaları geliştirmektir.*
 
 ---
@@ -34,11 +35,7 @@ A brief, engaging description of your project.
 ## Team / *Ekip*
 
 - *2320191035* - Name Surname: Yağız Yedier *Everythink*  
-  *Ad Soyad: Rolü veya Katkısı*
-- **Another Member** - Name Surname: *Role or Contribution*  
-  *Ad Soyad: Rolü veya Katkısı*
-- Add more members as needed.  
-  *Gerektiğinde daha fazla üye ekleyin.*
+
 
 ---
 
@@ -53,9 +50,9 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 | Topic / *Başlık*        | Link                                    | Description / *Açıklama*                        |
 |-------------------------|-----------------------------------------|------------------------------------------------|
-| Aircrack Deep Dive      | [researchs/aircrack.md](researchs/aircrack.md) | In-depth analysis of Aircrack-ng suite. / *Aircrack-ng paketinin derinlemesine analizi.* |
-| Example Research Topic  | [researchs/your-research-file.md](researchs/your-research-file.md) | Brief overview of this research. / *Bu araştırmanın kısa bir özeti.* |
-| Add More Research       | *Link to your other research files*     | *Description of the research*                  |
+| Web Zafiyet Analiz Metodolojileri     | [researchs/aircrack.md](researchs/aircrack.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi.*|
+| DevSecOps Entegrasyon Yaklaşımları  | [researchs/your-research-file.md](researchs/your-research-file.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi*. |
+| API Güvenliği En İyi Pratikleri      | *Modern API'lar için kimlik doğrulama, yetkilendirme ve veri koruma stratejileri.*|
 
 ---
 
