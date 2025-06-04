@@ -34,7 +34,7 @@
 
 ## Team / *Ekip*
 
-- *2320191035* - Name Surname: Yağız Yedier *Everythink*  
+- *2320191035 - Yağız Yedier: Proje Lideri ve Geliştirme Sorumlusu (Everything)*  
 
 
 ---
@@ -60,8 +60,8 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 
 1. **Clone the Repository / *Depoyu Klonlayın***:  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-   cd YOUR_REPO
+   git clone https://github.com/YagizYedier/Web-Uygulama-Guvenligi-Gelistirme.git
+   cd Web-Uygulama-Guvenligi-Gelistirme
    ```
 
 2. **Set Up Virtual Environment / *Sanal Ortam Kurulumu*** (Recommended):  
