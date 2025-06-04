@@ -52,7 +52,7 @@ See our plans in [ROADMAP.md](ROADMAP.md).
 |-------------------------|-----------------------------------------|------------------------------------------------|
 | Web Zafiyet Analiz Metodolojileri     | [researchs/aircrack.md](researchs/aircrack.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi.*|
 | DevSecOps Entegrasyon Yaklaşımları  | [researchs/your-research-file.md](researchs/your-research-file.md) | *Web uygulamalarında yaygın zafiyet türlerinin (OWASP Top 10) ve tespit metodolojilerinin derinlemesine analizi*. |
-| API Güvenliği En İyi Pratikleri      | *Modern API'lar için kimlik doğrulama, yetkilendirme ve veri koruma stratejileri.*|
+| API Güvenliği En İyi Pratikleri      | [researchs/api_security_best_practices.md](researchs/api_security_best_practices.md	)	 Modern API'lar için kimlik doğrulama, yetkilendirme ve veri koruma stratejileri.*|
 
 ---
 
